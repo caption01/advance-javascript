@@ -1,0 +1,22 @@
+{
+  "name": "advance-javascript",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caption01/advance-javascript.git"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caption01/advance-javascript/issues"
+  },
+  "homepage": "https://github.com/caption01/advance-javascript#readme"
+}
