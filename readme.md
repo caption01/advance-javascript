@@ -12,6 +12,6 @@
   - es2020
   - es2021
 
-- [Part 2 - import/export]()
+- [Part 2 - import/export](https://github.com/caption01/advance-javascript/tree/feature/final/part2)
   - require & module.exports (commonJS)
   - import & export (ECMAScript module node.js >= v.12)
