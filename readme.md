@@ -4,7 +4,7 @@
 
 ## Contents
 
-- [Part 1 - New ES Syntax]()
+- [Part 1 - New ES Syntax](https://github.com/caption01/advance-javascript/tree/feature/final/part1)
   - es5 & es6
   - es7
   - es8 & es9
