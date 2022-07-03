@@ -2,6 +2,7 @@ const pokemon = {
   atk: undefined,
   def: 100,
 };
+
 // Nullish Colescing Operator
 const pokeAtk = pokemon.atk ?? 0;
 

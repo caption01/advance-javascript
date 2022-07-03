@@ -3,6 +3,10 @@ const word = 'Hey!!';
 word.padStart(10);
 word.padEnd(10);
 
+const fullNumber = '12345';
+const last2Digits = fullNumber.slice(-2);
+const maskedNumber = last2Digits.padStart(5, '*');
+
 // tailing comma in function
 const combine = (x, y, z) => {
   return `${x}-${y}-${z}`;
