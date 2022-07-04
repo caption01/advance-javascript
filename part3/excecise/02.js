@@ -18,7 +18,7 @@ function numberType(data) {
 
   if (allow && data % 2 === 1) {
     message = 'odd';
-    delay = 100;
+    delay = 1000;
   }
 
   if (!allow) {

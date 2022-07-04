@@ -9,9 +9,17 @@ const myTimerPromise = (timer = 1500) =>
     }, 3000);
   });
 
+// myTimerPromise(500)
+//   .then((response) => {
+//     run();
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   });
+
 const URL = 'https://jsonplaceholder.typicode.com/posts';
 
-const fetchPost = () => {
+const fetchPostPromise = () => {
   return fetch(URL, { method: 'get' })
     .then((response) => {
       const json = response.json();
@@ -30,15 +38,7 @@ function run() {
     const userId = data
       .map((d) => d?.userId)
       .filter((id, index, source) => source.indexOf(id) === index);
-    console.log(userId);
   });
 }
 
-myTimerPromise(3100)
-  .then((response) => {
-    console.log(response);
-    run();
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+module.exports = { fetchPostPromise };

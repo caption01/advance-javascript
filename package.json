@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/caption01/advance-javascript/issues"
   },
-  "homepage": "https://github.com/caption01/advance-javascript#readme"
+  "homepage": "https://github.com/caption01/advance-javascript#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
