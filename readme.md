@@ -13,5 +13,11 @@
   - es2021
 
 - [Part 2 - import/export](https://github.com/caption01/advance-javascript/tree/feature/final/part2)
+
   - require & module.exports (commonJS)
   - import & export (ECMAScript module node.js >= v.12)
+
+- [Part 3 - Async Function](https://github.com/caption01/advance-javascript/tree/feature/final/part3)
+  - Promise (require node version 18)
+  - Async Await Synctax
+  - Callback
