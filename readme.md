@@ -18,6 +18,11 @@
   - import & export (ECMAScript module node.js >= v.12)
 
 - [Part 3 - Async Function](https://github.com/caption01/advance-javascript/tree/feature/final/part3)
+
   - Promise (require node version 18)
   - Async Await Synctax
   - Callback
+
+- [Part 4 - Scope](https://github.com/caption01/advance-javascript/tree/feature/final/part4)
+  - Lexical Scope & closure
+  - HOF (high order function)
